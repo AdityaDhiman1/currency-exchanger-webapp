@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+
+}
+body{
+    background:  linear-gradient(to bottom, rgba(255, 0, 0, 0.214), rgba(0, 0, 255, 0.219));
+}
+.navbar{
+    width: 100%;
+    background-color: rgba(160, 58, 58, 0.405);
+    height: 10vh;
+}
+.navbar h3{
+    font-family: cursive;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    position: absolute;
+}
+
+.navbar ul li{
+    margin-left: 40px;
+    font-size: 20px;
+    position: relative;
+    left: 65%;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.container{
+    width: 100%;
+    height: 90vh;
+}
+.container h1{
+    font-family: cursive;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 2px 3px 3px rgba(160, 58, 58, 0.405);
+    font-size: 49px;
+}
+
+.container h5{
+    font-family: cursive;
+    font-weight: 300;
+    font-size: large;
+    text-align: center;
+    text-shadow: 2px 3px 3px rgba(160, 58, 58, 0.405);
+    padding-top: 20px;
+}
+.form{
+    width: 60%;
+    height: 170px;
+    margin-left: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.select{
+    height: 50px;
+    width: 30%;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid  rgba(160, 58, 58, 0.405);
+    color: rgba(160, 58, 58, 0.405);
+}
+.opt{
+    color: red;
+}
+button{
+    height: 30px;
+    width: 10%;
+    border-radius: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.img{
+    width: 140px;
+    height: 100px;
+    border-radius: 4px
+}
+.container-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.img-content{
+    color: rgba(176, 22, 22, 0.678);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
